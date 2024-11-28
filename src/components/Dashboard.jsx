@@ -17,7 +17,7 @@ const Dashboard = () => {
       <section id="home" className="relative bg-gray-100 min-h-screen flex items-center justify-center px-4">
         {/* Image */}
         <img
-          src="https://i.pinimg.com/236x/76/c7/6a/76c76a7a19d36104ad013fe959f5f8ef.jpg"
+          src="https://images.unsplash.com/photo-1716307035615-1c6465a32ef2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Z3ltJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D"
           alt="Scenic View"
           className="w-full h-auto object-cover rounded-lg shadow-lg max-w-md"
          />

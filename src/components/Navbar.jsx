@@ -28,7 +28,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <a href="/" className="text-2xl font-bold">
-              YourLogo
+              welcome to our website
             </a>
           </div>
 

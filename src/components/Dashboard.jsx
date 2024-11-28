@@ -16,11 +16,14 @@ const Dashboard = () => {
       {/* Home Section */}
       <section id="home" className="relative bg-gray-100 min-h-screen flex items-center justify-center px-4">
         {/* Image */}
+       <div className="flex justify-center items-center h-screen bg-gray-100">
         <img
-          src="https://i.pinimg.com/236x/7c/b7/24/7cb72422b33b7d4889f94cc3ee7fdbc4.jpg"
-          alt="Scenic View"
-          className="w-full h-screen object-fit"
-        />
+         src="https://i.pinimg.com/236x/7c/b7/24/7cb72422b33b7d4889f94cc3ee7fdbc4.jpg"
+         alt="Scenic View"
+         className="w-full max-w-md h-auto object-cover rounded-lg shadow-lg"
+         />
+        </div>
+
 
         {/* Overlay Content */}
         <div className="absolute inset-0 flex flex-col items-center justify-center   text-grey px-4">

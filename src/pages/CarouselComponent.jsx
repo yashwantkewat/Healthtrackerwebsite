@@ -27,7 +27,7 @@ function CarouselComponent() {
   return (
     <div className="bg-gray-100 py-10 bg-amber-200">
       <h2 className="text-3xl font-bold text-center text-blue-500 mb-6">Weekly Schedule</h2>
-      <div className="flex flex-wrap justify-center gap-6">
+      <div className="flex flex-wrap justify-center gap-6 bg-amber-400">
         {schedule.map((item, index) => (
           <div
             key={index}
